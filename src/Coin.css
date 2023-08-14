@@ -1,0 +1,74 @@
+/* Coin.css */
+body {
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+    margin: 0;
+  }
+  
+  .coin-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    width: 300px;
+    height: 400px; /* Adjust this height as needed */
+    padding: 10px;
+    overflow-y: auto; /* Add vertical scrollbar when content overflows */
+  }
+  
+  .coin-row {
+    display: flex;
+    flex-direction: column; /* Stack coins vertically */
+    align-items: center;
+    border-bottom: 1px solid #d7d7d7;
+    padding: 10px;
+    min-width: 300px;
+  }
+  
+  .coin {
+    display: flex;
+    flex-direction: column; /* Stack coin details vertically */
+    align-items: center;
+    padding-right: 10px;
+    min-width: 200px;
+  }
+  
+  .coin h1 {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .coin img {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px; /* Adjusted to add space between coin logo and name */
+  }
+  
+  .coin-symbol {
+    text-transform: uppercase;
+  }
+  
+  .coin-data {
+    display: flex;
+    flex-direction: column; /* Stack data vertically */
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .coin-price,
+  .coin-volume,
+  .coin-marketcap,
+  .coin-percent {
+    width: 100%;
+    font-size: 12px;
+    margin: 2px 0;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .green {
+    color: #11d811;
+  }
+  

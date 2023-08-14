@@ -1,0 +1,16 @@
+{
+  "name" : "Bitcoinexe",
+  "description" : "Simple Api based real time crypto",
+  "version": "0.1",
+  "manifest_version": 2,
+  "browser_action" : {
+    "default_title" : "Bitcoinexe",
+    "default_popup" : "index.html",
+    "default_icon" :"bit.png"
+  },
+  "icons":{
+    "128" : "bit.png"
+  },
+  "permissions" : ["activeTab"]
+    
+}
