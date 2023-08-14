@@ -1,5 +1,8 @@
 "CryptoCoin Tracker App - A React-based web application for tracking cryptocurrency prices, volumes, and market capitalizations. Fetches real-time data from the CoinGecko API to display a list of top cryptocurrencies. Includes a user-friendly search feature and dynamic color-coded indicators for price changes. Built with React, Axios, and CSS.
 
+Deployed Link👉
+https://64da6d97b5cde113d1d5e85f--rad-hummingbird-b663dc.netlify.app/
+
 App Screenshot
 ![Screenshot (6)](https://github.com/Yuvaraja-M/CryptoCurrencyTraker-Api-based/assets/84231769/8fc699bb-e5df-4578-9cb0-8abea55b0d08)
 ![Screenshot (7)](https://github.com/Yuvaraja-M/CryptoCurrencyTraker-Api-based/assets/84231769/88211e90-f10e-4171-9d6b-3e37731cb346)
